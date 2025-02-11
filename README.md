@@ -7,9 +7,9 @@
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity  and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
 
 ```sql
---- ADVANCE SQL PROJECT SPOTIFY--
+---SQL PROJECT SPOTIFY--
 
--- create table
+-- Create table
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
@@ -63,9 +63,10 @@ SELECT DISTINCT most_played_on FROM spotify;
 
 
 --
-```sql
+
 --Q.1.Retrieve the names of all tracks that have more than 1 billion streams.
 
+```sql
 SELECT*FROM spotify
 WHERE stream > 1000000000
 ```
