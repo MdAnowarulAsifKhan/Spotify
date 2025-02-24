@@ -251,7 +251,7 @@ To improve query performance, I carried out the following optimization process:
 
 
 
-This optimization shows how indexing can drastically reduce query time, improving the overall performan
+This optimization shows how indexing can drastically reduce query time, improving the overall performance.
 ---
 
 ## License
