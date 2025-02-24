@@ -38,7 +38,7 @@ CREATE TABLE spotify (
 ```
 --EDA
 ```sql
-SELECT OUNT (*) FROM spotify;
+SELECT COUNT (*) FROM spotify;
 
 SELECT COUNT (DISTINCT artist) FROM spotify;
 
